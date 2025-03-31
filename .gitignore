@@ -1,0 +1,29 @@
+# Ignorar arquivos e pastas do ambiente virtual
+venv/
+.env
+*.pyc
+__pycache__/
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Banco de dados SQLite (caso esteja usando)
+db.sqlite3
+*.sqlite3
+
+# Arquivos de log
+*.log
+
+# Mídia e arquivos estáticos gerados
+/media/
+staticfiles/
+node_modules/
+
+# Configuração do Docker (se estiver usando)
+docker-compose.override.yml
+
+# Chaves e credenciais sensíveis
+.env
+*.pem
